@@ -1,12 +1,13 @@
 import "./App.css";
 
-import { HelloPage } from "@pages/index";
+import router from "@router/index";
+import { RouterProvider } from "react-router-dom";
 
 function App() {
   return (
     <>
       <h1 className="bg-primary">Hello, Vite + React + TS + TailwindCSS</h1>
-      <HelloPage />
+      <RouterProvider router={router}></RouterProvider>
     </>
   );
 }

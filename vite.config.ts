@@ -36,6 +36,7 @@ export default defineConfig({
       "@pages": resolve(__dirname, "./src/pages"),
       "@hooks": resolve(__dirname, "./src/hooks"),
       "@utils": resolve(__dirname, "./src/utils"),
+      "@router": resolve(__dirname, "./src/router"),
     },
   },
 });
