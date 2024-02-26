@@ -1,4 +1,5 @@
 import { Button, Card } from "@/components";
+const a = 0;
 
 export const Index = () => {
   return (
