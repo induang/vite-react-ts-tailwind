@@ -37,6 +37,8 @@ export default defineConfig({
       "@hooks": resolve(__dirname, "./src/hooks"),
       "@utils": resolve(__dirname, "./src/utils"),
       "@router": resolve(__dirname, "./src/router"),
+      "@queries": resolve(__dirname, "./src/queries"),
+      "@requests": resolve(__dirname, "./src/requests"),
     },
   },
 });
