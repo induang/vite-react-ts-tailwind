@@ -1,4 +1,4 @@
-import { HelloPage, SecondPage } from "@pages/index";
+import { HelloPage } from "@pages/index";
 import { createBrowserRouter, Outlet } from "react-router-dom";
 
 import { ProtectedRoute } from "./ProtectedRoute";
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
         path: "second",
         element: (
           <ProtectedRoute user={true} redirectPath="/">
-            <SecondPage />
+            <HelloPage />
           </ProtectedRoute>
         ),
       },
