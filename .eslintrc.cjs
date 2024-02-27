@@ -9,7 +9,12 @@ module.exports = {
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parser: "@typescript-eslint/parser",
-  plugins: ["react-refresh", "@typescript-eslint", "simple-import-sort"],
+  plugins: [
+    "react-refresh",
+    "@typescript-eslint",
+    "simple-import-sort",
+    "@tanstack/query",
+  ],
   rules: {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
