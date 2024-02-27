@@ -30,7 +30,8 @@
       "@utils/*": ["src/utils/*"],
       "@router/*": ["src/router/*"],
       "@queries/*": ["src/queries/*"],
-      "@requests/*": ["src/requests/*"]
+      "@requests/*": ["src/requests/*"],
+      "@redux/*": ["src/redux/*"]
     }
   },
   "types": ["vite/client"],

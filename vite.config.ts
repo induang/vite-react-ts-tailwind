@@ -22,8 +22,12 @@ export default defineConfig({
         compact: true,
         chunkFileNames: "assets/[name]-[hash].js",
         manualChunks: {
-          react: ["react", "react-dom"], // react-router-dom
-          // "react-state": ["react-hook-form", "@tanstack/react-query", "@reduxjs/toolkit"],
+          react: ["react", "react-dom", "react-router-dom"],
+          "react-state": [
+            "react-hook-form",
+            "@tanstack/react-query",
+            "@reduxjs/toolkit",
+          ],
           // "ui-vendors": [""],
         },
       },
@@ -39,6 +43,7 @@ export default defineConfig({
       "@router": resolve(__dirname, "./src/router"),
       "@queries": resolve(__dirname, "./src/queries"),
       "@requests": resolve(__dirname, "./src/requests"),
+      "@redux": resolve(__dirname, "./src/redux"),
     },
   },
 });
